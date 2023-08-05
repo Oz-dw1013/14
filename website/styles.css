@@ -1,0 +1,68 @@
+/* Custom styles for the website */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  main {
+    padding: 40px 0;
+  }
+  
+  main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  section ul {
+    list-style: none;
+  }
+  
+  section ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    padding: 20px 0;
+  }
+  
+  /* Custom script.js for additional JavaScript functionality */
+  /* Custom styles for the Contact section */
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+#contact textarea {
+  resize: vertical;
+}
+
+#contact button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
